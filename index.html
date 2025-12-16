@@ -7,19 +7,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
         <h1>Welcome to My Cloud Project</h1>
         <p>DevOps & Cloud Computing Assignment</p>
+        
+        <nav style="margin-top: 15px;">
+            <ul style="list-style: none; padding: 0;">
+                <li style="display: inline; margin: 0 15px;">
+                    <a href="index.html" style="color: white; text-decoration: none; font-weight: bold;">Home</a>
+                </li>
+                <li style="display: inline; margin: 0 15px;">
+                    <a href="login.html" style="color: white; text-decoration: none; font-weight: bold;">Login</a>
+                </li>
+                <li style="display: inline; margin: 0 15px;">
+                    <a href="dashboard.html" style="color: white; text-decoration: none; font-weight: bold;">Dashboard</a>
+                </li>
+            </ul>
+        </nav>
     </header>
+
     <main>
         <section class="content">
             <h2>Task Overview</h2>
-            <p>This is the initial UI layout created by the Lead Dev. We are setting up the foundation for our CI/CD pipeline.</p>
-            <button>Learn More</button>
+            <p>This is the initial UI layout created by the Lead Dev. We are setting up the foundation for our CI/CD pipeline and cloud deployment.</p>
+            <button onclick="window.location.href='login.html'">Go to Login</button>
         </section>
     </main>
+
     <footer>
         <p>&copy; 2024 Cloud DevOps Team</p>
     </footer>
+
 </body>
 </html>
