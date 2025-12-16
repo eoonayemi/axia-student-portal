@@ -49,3 +49,23 @@ footer {
     padding: 10px 0;
     margin-top: auto;
 }
+
+/* Login Page Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+}
